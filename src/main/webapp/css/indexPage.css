@@ -1,0 +1,89 @@
+/*
+*	indexPage.css
+*/
+body {
+	background-image: url(../imgs/backgroundDictionary.jpg);
+	background-position: center;
+	background-atachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: 100%;
+	font-size: 20px;
+}
+
+h1 {	
+	text-align: center;
+    font-size: 60px;
+    font-family: initial;
+    background-color: rgba(241, 241, 241, 0.74);
+    color: #39749c;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+}
+
+img {
+	align: center;
+}
+
+input {
+	background: url('../imgs/emojiInicio.jpg');
+	width: 299px;
+	height: 168px;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+div.fuera {
+	width: 100%;
+	text-align: center;
+}
+
+div.central {
+	display: inline-block;
+}
+p.recordatorio{
+	font-size:25px;
+	font-weight:bold;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: #3498db, #2980b9;
+    background-image: linear-gradient(to bottom, #70b6e4, #0e4163);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-image: linear-gradient(to bottom, #70B6E4, #051824);
+}
+p{
+	font-size:35px;
+	width:80%;
+	text-align:center;
+	margin-top:10%;
+	margin-right:auto;
+	margin-left:auto;
+}
